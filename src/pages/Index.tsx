@@ -73,17 +73,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Featured products */}
-      <section className="bg-secondary/30 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-center font-display text-3xl font-bold text-foreground">All Products</h2>
-          <div className="mt-10 grid gap-5 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            {allProducts.map((product, i) => (
-              <ProductCard key={product.id} product={product} index={i} />
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

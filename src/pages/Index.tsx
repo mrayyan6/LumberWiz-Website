@@ -21,7 +21,7 @@ export default function Index() {
             transition={{ duration: 0.7 }}
             className="font-display text-4xl font-bold text-primary-foreground md:text-6xl"
           >
-            Artisan Terracotta & Decor
+            LumberWiz
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

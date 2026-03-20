@@ -61,7 +61,7 @@ export default function Index() {
                 to={`/category/${encodeURIComponent(cat.name)}`}
                 className="group relative block aspect-[4/3] overflow-hidden rounded-lg"
               >
-                <img src={cat.image} alt={cat.name} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <img src={cat.image} alt={cat.name} className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-foreground/30 transition-colors group-hover:bg-foreground/50" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-primary-foreground">
                   <h3 className="font-display text-2xl font-bold">{cat.name}</h3>
